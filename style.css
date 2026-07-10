@@ -13,7 +13,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: beige;
+  background-color: whitesmoke;
   align-items: center;
   padding: 18x 8%;
 }
@@ -36,7 +36,7 @@ header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/banner.jpg");
-  height: 80vh;
+  height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,7 +68,7 @@ header {
   line-height: 1.6;
 }
 
-/*meet the speaker*/
+/*Meet the Speaker*/
 
 .speakers {
   padding: 60px 0;
@@ -113,7 +113,7 @@ header {
   margin-bottom: 20px;
 }
 
-/*Secure Your spot*/
+/*Secure Your Spot*/
 
 .ticket-section {
   width: 80%;
@@ -121,42 +121,43 @@ header {
   text-align: center;
 }
 .ticket-section h1 {
-  font-size: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .ticket-section p {
   color: gray;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .ticket-container {
-  display: flex;
-  gap: 30px;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .ticket-box {
-  width: 320px;
+  width: 380px;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 30px;
+  padding: 20px;
   text-align: left;
-  display: flex;
-  flex-direction: column;
 }
 .ticket-box h4 {
   color: gray;
   margin-bottom: 15px;
+  padding-left: 28px;
 }
 .ticket-box h2 {
   font-size: 45px;
   margin-bottom: 5px;
+  padding-left: 28px;
 }
 .ticket-box p {
   margin-bottom: 20px;
+  padding-left: 28px;
 }
 .ticket-box ul {
-  margin-left: 20px;
   margin-bottom: 30px;
+  padding-left: 28px;
+  list-style-position: inside;
 }
 .ticket-box li {
   margin-bottom: 12px;
@@ -164,11 +165,10 @@ header {
   text-align: left;
 }
 .ticket-box button {
-  margin-top: auto;
   width: 100%;
   padding: 12px;
   border: 1px solid gray;
-  border-radius: 8px;
+  border-radius: 12px;
   background: white;
   cursor: pointer;
 }
