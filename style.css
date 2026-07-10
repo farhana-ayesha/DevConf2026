@@ -17,7 +17,7 @@ nav {
   align-items: center;
   padding: 18x 8%;
 }
-ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -36,7 +36,7 @@ header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/banner.jpg");
-  height: 70vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -66,4 +66,124 @@ header {
 .header-content p {
   margin: 20px 0;
   line-height: 1.6;
+}
+
+/*meet the speaker*/
+
+.speakers {
+  padding: 60px 0;
+}
+.speakers h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.speaker-container {
+  width: 85%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.card {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card h3,
+.card p {
+  padding-left: 20px;
+}
+.category {
+  color: #0077ff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.card h3 {
+  margin: 8px 0;
+}
+.card p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/*Secure Your spot*/
+
+.ticket-section {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+.ticket-section h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.ticket-section p {
+  color: gray;
+  margin-bottom: 50px;
+}
+.ticket-container {
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+}
+
+.ticket-box {
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.ticket-box h4 {
+  color: gray;
+  margin-bottom: 15px;
+}
+.ticket-box h2 {
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+.ticket-box p {
+  margin-bottom: 20px;
+}
+.ticket-box ul {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.ticket-box li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+  text-align: left;
+}
+.ticket-box button {
+  margin-top: auto;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+.pro {
+  background-color: #111827;
+  color: white;
+}
+.pro h4,
+.pro h2,
+.pro p,
+.pro li {
+  color: white;
+}
+.pro button {
+  background: #2563eb;
+  color: white;
+  border: none;
 }
