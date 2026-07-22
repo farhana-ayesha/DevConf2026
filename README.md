@@ -7,3 +7,5 @@ The following AI prompt was used to generate ideas for the **DevConf Passport** 
 > completing coding challenges, visiting sponsor booths, and joining networking events. Keep the design clean, modern, and use only simple HTML and CSS."
 
 **Note:** This prompt was used only for the **DevConf Passport** section. The rest of the website was built separately using HTML and CSS.
+
+[![Live Demo](https://shields.io)](https://farhana-ayesha.github.io/DevConf2026/)
